@@ -1,0 +1,7 @@
+INSERT INTO users (first_name, last_name, handle, created_at) values ('Jimmy', 'Duarte', 'Jim', NOW());
+
+select handle from users where id = 7;
+
+update users set handle = 'Jim', updated_at = NOW() where id = 7;
+
+delete from users where id = 7; 
